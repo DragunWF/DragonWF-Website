@@ -1,0 +1,10 @@
+To Do:
+
+    Make the mobile version of these pages presentable:
+    - Home (Done)
+    - About (Done)
+    - Projects (Done)
+
+    Misc:
+    - Validate your HTML and CSS code and fix the errors
+
