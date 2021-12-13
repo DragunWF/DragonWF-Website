@@ -7,4 +7,7 @@ To Do:
 
     Misc:
     - Validate your HTML and CSS code and fix the errors
-
+    - Home (Validated)
+    - About (Validated)
+    - Projects (Validated)
+    - style sheet (Validated)

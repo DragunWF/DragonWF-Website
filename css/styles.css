@@ -142,7 +142,7 @@ body {
 
   .cover__heading {
     font-size: 5rem;
-    letter-spacing: 1.1;
+    /* letter-spacing: 1.1; */
   }
 
   .cover__links {
@@ -276,6 +276,10 @@ body {
 
 .projects__info p a:hover {
   color: var(--color-accent-lighter);
+}
+
+.projects h1 {
+  text-shadow: 1px 1px 10px #000;
 }
 
 #dragonbot {
