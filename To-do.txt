@@ -11,3 +11,6 @@ To Do:
     - About (Validated)
     - Projects (Validated)
     - style sheet (Validated)
+
+Notes:
+    - Removed the picture and source comments from projects.html
