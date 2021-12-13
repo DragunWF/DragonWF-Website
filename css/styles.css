@@ -66,13 +66,10 @@ body {
     gap: 3rem;
   }
 
-  .nav .list li {
-    text-align: center;
-  }
-
   .nav__item {
     border-bottom: 1px solid #c0c0c0;
     width: 80%;
+    text-align: center;
   }
 }
 
