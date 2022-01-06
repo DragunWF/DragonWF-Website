@@ -369,6 +369,14 @@ body {
 
 @media screen and (max-width: 768px) {
   .skills-content {
-    grid-template-columns: repeat(1, 1fr);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .skills-container {
+    width: 65%;
+    font-size: 1.8rem;
   }
 }
