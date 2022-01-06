@@ -5,6 +5,87 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DragonWF | Skills</title>
+    <link rel="icon" href="images/dragon.jpg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
-  <body></body>
+  <body>
+    <header class="main-header">
+      <nav class="nav">
+        <div class="list">
+          <div class="nav__item"><a href="index.html">Home</a></div>
+          <div class="nav__item"><a href="about.html">About</a></div>
+          <div class="nav__item"><a href="projects.html">Projects</a></div>
+          <div class="nav__item"><a href="#">Skills</a></div>
+        </div>
+      </nav>
+    </header>
+    <h1 class="skills-header" data-aos="zoom-out">Skills:</h1>
+    <section class="skills">
+      <div class="skills-content">
+        <article class="skills-container" data-aos="fade-right">
+          <h2>Known Languages</h2>
+          <ul>
+            <li>Python</li>
+            <li>JavaScript</li>
+            <li>HTML5</li>
+            <li>CSS3</li>
+          </ul>
+        </article>
+        <article class="skills-container" data-aos="fade-left">
+          <h2>Technologies</h2>
+          <ul>
+            <li>PyGame</li>
+            <li>Discord.py</li>
+            <li>jQuery</li>
+            <li>Chrome Dev Tools</li>
+            <li>Git & GitHub</li>
+          </ul>
+        </article>
+        <article class="skills-container" data-aos="fade-right">
+          <h2>Things I Plan On Learning</h2>
+          <ul>
+            <li>C#</li>
+            <li>Unity Engine</li>
+            <li>NodeJS</li>
+            <li>Django</li>
+            <li>Java</li>
+          </ul>
+        </article>
+        <article class="skills-container" data-aos="fade-left">
+          <h2>Miscellaneous</h2>
+          <ul>
+            <li>
+              <a
+                href="https://data.typeracer.com/pit/profile?user=dragonwf"
+                target="_blank"
+                >100+ WPM Typing Speed</a
+              >
+            </li>
+            <li>
+              <a href="https://www.codewars.com/users/DragonWF" target="_blank"
+                >4 Kyu CodeWars</a
+              >
+            </li>
+            <li>Econometrics</li>
+            <li>Business Math</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+    <footer class="footer">
+      <p id="footer__copyright">&copy; DragonWF 2021</p>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
 </html>
