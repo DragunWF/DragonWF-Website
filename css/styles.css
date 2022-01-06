@@ -340,3 +340,9 @@ body {
 .skills-container a:hover {
   color: var(--color-accent-lighter);
 }
+
+@media screen and (max-width: 768px) {
+  .skills-content {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
