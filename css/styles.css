@@ -132,6 +132,32 @@ body {
   margin-right: 0.5rem;
 }
 
+.description-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-description {
+  color: var(--color-text);
+  background: var(--color-dark);
+  padding: 2.5rem;
+  border-radius: 15px;
+  width: 50%;
+}
+
+.main-description p {
+  width: 50ch;
+}
+
+.main-description h2 {
+  text-align: center;
+}
+
+/* .footer-index {
+  margin-top: 7rem;
+} */
+
 @media screen and (max-width: 768px) {
   .cover__boxes {
     font-size: 50%;
