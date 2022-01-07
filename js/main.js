@@ -17,7 +17,7 @@ $(document).ready(function () {
   if (pageId == "latest") {
     $("html, body").animate(
       {
-        scrollTop: $(`#${pageId}-project`).offset().top + 150,
+        scrollTop: $(`#${pageId}-project`).offset().top,
       },
       850
     );
