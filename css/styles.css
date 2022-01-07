@@ -26,6 +26,16 @@ body {
   background-image: url("/images/consts.svg");
 }
 
+/* Objects  */
+.text-link {
+  color: #5fed5f;
+  transition: color 0.3s;
+}
+
+.text-link:hover {
+  color: var(--color-accent-lighter);
+}
+
 /* Navigation bar */
 .nav {
   display: flex;
@@ -132,6 +142,32 @@ body {
   margin-right: 0.5rem;
 }
 
+.cover button {
+  background: var(--color-accent);
+  color: var(--color-text);
+  font-size: 1.8rem;
+  border: 0;
+  border-radius: 10px;
+  padding: 0.9rem;
+  font-weight: 500;
+  margin-top: 1rem;
+  transition: all 0.25s;
+}
+
+.cover button:hover {
+  background: var(--color-accent-lighter);
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.extra-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 3.5rem;
+}
+
 .description-content {
   display: flex;
   align-items: center;
@@ -143,20 +179,20 @@ body {
   background: var(--color-dark);
   padding: 2.5rem;
   border-radius: 15px;
-  width: 50%;
 }
 
 .main-description p {
   width: 50ch;
+  line-height: 1.3;
 }
 
 .main-description h2 {
   text-align: center;
 }
 
-/* .footer-index {
-  margin-top: 7rem;
-} */
+.footer-index {
+  margin-top: 3.5rem;
+}
 
 @media screen and (max-width: 768px) {
   .cover__boxes {
@@ -294,15 +330,6 @@ body {
   width: 95%;
 }
 
-.projects__box a {
-  color: #5fed5f;
-  transition: color 0.3s;
-}
-
-.projects__box a:hover {
-  color: var(--color-accent-lighter);
-}
-
 .projects h1 {
   text-shadow: 1px 1px 10px #000;
 }
@@ -356,15 +383,6 @@ body {
 
 .skills-container li {
   line-height: 1.5;
-}
-
-.skills-container a {
-  color: #5fed5f;
-  transition: color 0.3s;
-}
-
-.skills-container a:hover {
-  color: var(--color-accent-lighter);
 }
 
 @media screen and (max-width: 768px) {
