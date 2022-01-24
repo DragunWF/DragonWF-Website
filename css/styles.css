@@ -93,10 +93,11 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  /* margin-top: 0.5rem; */
 }
 
 .cover__heading {
-  font-size: 15rem;
+  font-size: 5.5rem;
   font-weight: 800;
   letter-spacing: 5px;
   color: var(--color-text);
@@ -111,7 +112,7 @@ body {
   text-align: center;
   gap: 2.5rem 7rem;
   list-style: none;
-  margin-top: 7rem;
+  margin-top: 2.5rem;
   padding-left: 0;
 }
 
@@ -158,6 +159,18 @@ body {
   background: var(--color-accent-lighter);
   transform: scale(1.1);
   cursor: pointer;
+}
+
+.cover__photo img {
+  margin-top: 1.5rem;
+  width: 20rem;
+  height: 20rem;
+  border-radius: 100%;
+  transition: all 0.25s;
+}
+
+.cover__photo img:hover {
+  transform: scale(1.1);
 }
 
 .extra-content {
