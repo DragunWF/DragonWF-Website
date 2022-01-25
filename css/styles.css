@@ -485,9 +485,8 @@ body {
     width: 80%;
   }
 
-  .form-container text-area {
-    text-align: center;
-    width: 80%;
-    padding: 0;
+  .form-container textarea {
+    width: 100%;
+    padding: 0.3rem;
   }
 }
