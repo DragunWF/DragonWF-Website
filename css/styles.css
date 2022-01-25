@@ -488,5 +488,6 @@ body {
   .form-container text-area {
     text-align: center;
     width: 80%;
+    padding: 0;
   }
 }
