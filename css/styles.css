@@ -482,7 +482,7 @@ body {
 @media screen and (max-width: 768px) {
   .form-container {
     text-align: center;
-    width: 80%;
+    width: 70%;
   }
 
   .form-container textarea {
