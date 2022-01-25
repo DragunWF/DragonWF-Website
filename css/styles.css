@@ -170,7 +170,7 @@ body {
 }
 
 .cover__photo img:hover {
-  transform: scale(1.1);
+  transform: scale(1.01);
 }
 
 .extra-content {
@@ -424,5 +424,67 @@ body {
   .skills-container {
     width: 65%;
     font-size: 1.8rem;
+  }
+}
+
+/* Forms */
+.flex-object {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-position {
+  margin-top: 5rem;
+  width: 100%;
+  height: 100%;
+}
+
+.form-container {
+  background: var(--color-dark);
+  border-radius: 15px;
+  color: var(--color-text);
+  width: 40%;
+  height: 75%;
+  flex-direction: column;
+  padding: 3rem;
+}
+
+.form-container h1 {
+  text-align: center;
+}
+
+.form-container h2 {
+  margin-bottom: 1.5rem;
+}
+
+.form-buttons {
+  margin-top: 2rem;
+  flex-direction: row;
+  gap: 3.5rem;
+}
+
+.form-buttons button {
+  border: 0;
+  border-radius: 10px;
+  padding: 1.2rem;
+  font-weight: 500;
+  font-size: 2rem;
+  transition: all 0.25s;
+}
+
+.form-buttons button:hover {
+  transform: scale(1.05);
+}
+
+@media screen and (max-width: 768px) {
+  .form-container {
+    text-align: center;
+    width: 80%;
+  }
+
+  .form-container text-area {
+    text-align: center;
+    width: 80%;
   }
 }
