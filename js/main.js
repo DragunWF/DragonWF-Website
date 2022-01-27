@@ -33,12 +33,12 @@ $(document).ready(function () {
     const message = $("#form-textarea").val();
     if (message) {
       if (!name) $("#form-name").val("Anonymous");
-      if (name.length < 20 && message.length < 254)
+      if (name.length < 20 && message.length < 2000)
         $("#form-submit").attr("type", "submit");
       else {
         if (name.length > 20) alert("Name must be less than 20 characters");
-        if (message.length > 254)
-          alert("Message must be less than 254 characters");
+        if (message.length > 2000)
+          alert("Message must be less than 2000 characters");
       }
     } else alert("Your message is empty!");
   });
