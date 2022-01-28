@@ -170,7 +170,7 @@ body {
 }
 
 .cover__photo img:hover {
-  transform: scale(1.01);
+  transform: scale(1.05);
 }
 
 .extra-content {
@@ -362,6 +362,11 @@ body {
   text-align: left;
   line-height: 1.5;
   width: 95%;
+  margin-top: 0.8rem;
+}
+
+.projects__info h2 {
+  margin-bottom: 0.8rem;
 }
 
 .projects h1 {
