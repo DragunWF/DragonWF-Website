@@ -1,14 +1,14 @@
 {
-  "name": "dragonwf",
+  "name": "dragonwf.netlify.app",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "My old personal website.",
+  "main": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "DragunWF",
+  "license": "All Rights Reserved",
   "devDependencies": {
     "parcel-bundler": "^1.12.5"
   }
