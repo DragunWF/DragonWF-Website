@@ -1,7 +1,6 @@
 # dragonwf.netlify.app
 
 ![GitHub top language](https://img.shields.io/github/languages/top/DragunWF/dragonwf.netlify.app)
-![Lines of code](https://img.shields.io/tokei/lines/github/DragunWF/dragonwf.netlify.app)
 ![GitHub repo size](https://img.shields.io/github/repo-size/DragunWF/dragonwf.netlify.app)
 
 ## Description:
