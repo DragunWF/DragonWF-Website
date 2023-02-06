@@ -5,8 +5,7 @@
 
 ## Description:
 
-Hello, this is one of the first few websites I made when I finished Mosh Hamedani's
-course about [HTML and CSS](https://codewithmosh.com/p/the-ultimate-html-css).
+Hello viewer, this is a really old project. I'd recommend you to check my new ones instead.
 
 Time passed and now I've made a new website! Which you can go check at the link leading
 to my new website's repository below.
